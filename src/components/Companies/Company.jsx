@@ -1,17 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Company = ({ company }) => {
 
     const { Id, BrandName, Image } = company;
 
     return (
-        <div className="card lg:card-side bg-base-100 shadow-xl">
-            <figure><img src={Image} alt="Album" /></figure>
-            <div className="card-body">
-                <h2 className="card-title">{BrandName}</h2>
-                
+        <Link to={`brands/${Id}`}>
+            <div>
+                <div className='border border-gray-500 rounded-lg p-4 h-[300px]'>
+                    <img className='h-full w-full rounded-lg' src={Image} alt="" />
+                    {/* <h1 className='text-4xl font-bold mt-6 text-center'>{BrandName}</h1> */}
+                </div>
             </div>
-        </div>
+        </Link>
     );
 };
 

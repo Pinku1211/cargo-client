@@ -7,18 +7,20 @@ const Companies = () => {
 
     useEffect(() => {
         fetch('/companies.json')
-        .then(result => result.json())
-        .then(data => setCompanies(data))
-    },[])
+            .then(result => result.json())
+            .then(data => setCompanies(data))
+    }, [])
 
 
     return (
-        <div>
-            <h1 className='my-10 text-4xl font-bold text-center'>The companies</h1>
+        <div className='my-14'>
+            <h1 className='my-10 text-5xl font-bold text-center'>The Brands</h1>
 
-            {
-                companies.map(company => <Company key={company.Id} company={company}></Company>)
-            }
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-16 lg:px-24'>
+                {
+                    companies.map(company => <Company key={company.Id} company={company}></Company>)
+                }
+            </div>
         </div>
     );
 };
