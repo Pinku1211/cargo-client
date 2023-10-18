@@ -17,7 +17,9 @@ import AddProduct from './Pages/Login/AddProduct';
 import MyCart from './Pages/Login/cart/MyCart';
 import Private from './components/Private/Private';
 import { HelmetProvider } from 'react-helmet-async';
-import Brand from './Pages/Brand/Brand';
+import Brand from './Pages/Brand/Brands';
+import Brands from './Pages/Brand/Brands';
+import Details from './Pages/Details/Details';
 
 const router = createBrowserRouter([
   {
@@ -47,7 +49,13 @@ const router = createBrowserRouter([
       },
       {
         path: '/brands/:id',
-        element: <Brand></Brand>,
+        element: <Brands></Brands>,
+        loader: () => fetch('/companies.json')
+      },
+      {
+        path: '/details/:brandName/:id',
+        element: <Details></Details>,
+        loader: () => fetch('/companies.json')
       }
     ]
   },

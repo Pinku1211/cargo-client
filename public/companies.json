@@ -11,7 +11,7 @@
                 "BrandName": "BMW",
                 "Type": "SUV",
                 "Price": "$60,000",
-                "Short description": "The BMW X5 is a luxurious and powerful SUV.",
+                "ShortDescription": "The BMW X5 is a luxurious and powerful SUV.",
                 "Rating": 4.9
               },
               {
@@ -21,7 +21,7 @@
                 "BrandName": "BMW",
                 "Type": "Sedan",
                 "Price": "$45,000",
-                "Short description": "The BMW 3 Series offers a perfect blend of luxury and performance.",
+                "ShortDescription": "The BMW 3 Series offers a perfect blend of luxury and performance.",
                 "Rating": 4.7
               },
               {
@@ -31,7 +31,7 @@
                 "BrandName": "BMW",
                 "Type": "Performance Sedan",
                 "Price": "$85,000",
-                "Short description": "The BMW M5 is a high-performance luxury sedan.",
+                "ShortDescription": "The BMW M5 is a high-performance luxury sedan.",
                 "Rating": 4.8
               },
               {
@@ -41,7 +41,7 @@
                 "BrandName": "BMW",
                 "Type": "Electric Car",
                 "Price": "$45,000",
-                "Short description": "The BMW i3 is a stylish electric car with a focus on sustainability.",
+                "ShortDescription": "The BMW i3 is a stylish electric car with a focus on sustainability.",
                 "Rating": 4.5
               }
         ]
@@ -58,7 +58,7 @@
                 "BrandName": "Audi",
                 "Type": "SUV",
                 "Price": "$55,000",
-                "Short description": "The Audi Q7 is a spacious and luxurious SUV with advanced tech.",
+                "ShortDescription": "The Audi Q7 is a spacious and luxurious SUV with advanced tech.",
                 "Rating": 4.7
               },
               {
@@ -68,7 +68,7 @@
                 "BrandName": "Audi",
                 "Type": "Sedan",
                 "Price": "$50,000",
-                "Short description": "The Audi A6 is an elegant and tech-savvy sedan.",
+                "ShortDescription": "The Audi A6 is an elegant and tech-savvy sedan.",
                 "Rating": 4.6
               },
               {
@@ -78,7 +78,7 @@
                 "BrandName": "Audi",
                 "Type": "Sports Car",
                 "Price": "$60,000",
-                "Short description": "The Audi TT offers thrilling sports car performance.",
+                "ShortDescription": "The Audi TT offers thrilling sports car performance.",
                 "Rating": 4.8
               },
               {
@@ -88,7 +88,7 @@
                 "BrandName": "Audi",
                 "Type": "Electric SUV",
                 "Price": "$65,000",
-                "Short description": "The Audi e-tron is a premium electric SUV with all-wheel drive.",
+                "ShortDescription": "The Audi e-tron is a premium electric SUV with all-wheel drive.",
                 "Rating": 4.6
               }
         ]
@@ -105,7 +105,7 @@
                 "BrandName": "Toyota",
                 "Type": "Sedan",
                 "Price": "$30,000",
-                "Short description": "The Toyota Camry is a reliable and efficient family sedan.",
+                "ShortDescription": "The Toyota Camry is a reliable and efficient family sedan.",
                 "Rating": 4.5
               },
               {
@@ -115,7 +115,7 @@
                 "BrandName": "Toyota",
                 "Type": "SUV",
                 "Price": "$35,000",
-                "Short description": "The Toyota RAV4 is a popular and versatile compact SUV.",
+                "ShortDescription": "The Toyota RAV4 is a popular and versatile compact SUV.",
                 "Rating": 4.6
               },
               {
@@ -125,7 +125,7 @@
                 "BrandName": "Toyota",
                 "Type": "Hybrid Car",
                 "Price": "$27,000",
-                "Short description": "The Toyota Prius is an eco-friendly hybrid with great fuel efficiency.",
+                "ShortDescription": "The Toyota Prius is an eco-friendly hybrid with great fuel efficiency.",
                 "Rating": 4.4
               },
               {
@@ -135,7 +135,7 @@
                 "BrandName": "Toyota",
                 "Type": "Truck",
                 "Price": "$40,000",
-                "Short description": "The Toyota Tundra is a rugged and dependable full-size truck.",
+                "ShortDescription": "The Toyota Tundra is a rugged and dependable full-size truck.",
                 "Rating": 4.7
               }
         ]
@@ -152,7 +152,7 @@
                 "BrandName": "Mercedes",
                 "Type": "Luxury Sedan",
                 "Price": "$55,000",
-                "Short description": "The Mercedes C-Class offers a perfect blend of luxury and performance.",
+                "ShortDescription": "The Mercedes C-Class offers a perfect blend of luxury and performance.",
                 "Rating": 4.7
               },
               {
@@ -162,7 +162,7 @@
                 "BrandName": "Mercedes",
                 "Type": "Luxury SUV",
                 "Price": "$60,000",
-                "Short description": "The Mercedes GLC is a luxurious and versatile SUV with advanced tech.",
+                "ShortDescription": "The Mercedes GLC is a luxurious and versatile SUV with advanced tech.",
                 "Rating": 4.8
               },
               {
@@ -172,7 +172,7 @@
                 "BrandName": "Mercedes",
                 "Type": "Sports Car",
                 "Price": "$130,000",
-                "Short description": "The Mercedes AMG GT offers thrilling sports car performance.",
+                "ShortDescription": "The Mercedes AMG GT offers thrilling sports car performance.",
                 "Rating": 4.9
               },
               {
@@ -182,7 +182,7 @@
                 "BrandName": "Mercedes",
                 "Type": "Electric SUV",
                 "Price": "$75,000",
-                "Short description": "The Mercedes EQC is a premium electric SUV with a focus on sustainability.",
+                "ShortDescription": "The Mercedes EQC is a premium electric SUV with a focus on sustainability.",
                 "Rating": 4.6
               }
         ]
@@ -199,7 +199,7 @@
                 "BrandName": "Honda",
                 "Type": "Sedan",
                 "Price": "$25,000",
-                "Short description": "The Honda Accord is a reliable and fuel-efficient family sedan.",
+                "ShortDescription": "The Honda Accord is a reliable and fuel-efficient family sedan.",
                 "Rating": 4.5
               },
               {
@@ -209,7 +209,7 @@
                 "BrandName": "Honda",
                 "Type": "SUV",
                 "Price": "$30,000",
-                "Short description": "The Honda CR-V is a popular and versatile compact SUV.",
+                "ShortDescription": "The Honda CR-V is a popular and versatile compact SUV.",
                 "Rating": 4.7
               },
               {
@@ -219,7 +219,7 @@
                 "BrandName": "Honda",
                 "Type": "Sport Compact",
                 "Price": "$28,000",
-                "Short description": "The Honda Civic Si offers sporty performance and style.",
+                "ShortDescription": "The Honda Civic Si offers sporty performance and style.",
                 "Rating": 4.6
               },
               {
@@ -229,7 +229,7 @@
                 "BrandName": "Honda",
                 "Type": "Hybrid Car",
                 "Price": "$30,000",
-                "Short description": "The Honda Clarity is a green, eco-friendly hybrid car.",
+                "ShortDescription": "The Honda Clarity is a green, eco-friendly hybrid car.",
                 "Rating": 4.4
               }
         ]
@@ -246,7 +246,7 @@
                 "BrandName": "Yamaha",
                 "Type": "Sport Motorcycle",
                 "Price": "$12,000",
-                "Short description": "The Yamaha YZF-R6 is a high-performance sport motorcycle for thrill-seekers.",
+                "ShortDescription": "The Yamaha YZF-R6 is a high-performance sport motorcycle for thrill-seekers.",
                 "Rating": 4.7
               },
               {
@@ -256,7 +256,7 @@
                 "BrandName": "Yamaha",
                 "Type": "Naked Bike",
                 "Price": "$7,000",
-                "Short description": "The Yamaha MT-07 is a versatile and agile naked motorcycle.",
+                "ShortDescription": "The Yamaha MT-07 is a versatile and agile naked motorcycle.",
                 "Rating": 4.5
               },
               {
@@ -266,7 +266,7 @@
                 "BrandName": "Yamaha",
                 "Type": "Cruiser",
                 "Price": "$8,500",
-                "Short description": "The Yamaha Bolt offers a classic cruiser style and comfort.",
+                "ShortDescription": "The Yamaha Bolt offers a classic cruiser style and comfort.",
                 "Rating": 4.6
               },
               {
@@ -276,7 +276,7 @@
                 "BrandName": "Yamaha",
                 "Type": "Sport Touring Motorcycle",
                 "Price": "$11,500",
-                "Short description": "The Yamaha Tracer 900 is designed for long-distance sport touring.",
+                "ShortDescription": "The Yamaha Tracer 900 is designed for long-distance sport touring.",
                 "Rating": 4.8
               }
         ]
