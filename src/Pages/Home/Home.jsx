@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../../components/Navbar/Navbar';
 import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
