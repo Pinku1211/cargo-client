@@ -44,7 +44,7 @@ const AddProduct = () => {
                     </div>
 
                     <div className="flex mx-auto mt-6">
-                        <input type="submit" className='w-full outline-white p-2 rounded-lg hover:bg-[#ff6969] hover:text-white border border-[#ff6969] text-[#ff6969]' />
+                        <input type="submit" value="Add Product" className='w-full outline-white p-2 rounded-lg hover:bg-[#ff6969] hover:text-white border border-[#ff6969] text-[#ff6969]' />
                     </div>
                 </form>
             </section>

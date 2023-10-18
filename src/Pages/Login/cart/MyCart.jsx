@@ -7,7 +7,9 @@ const MyCart = () => {
             <Helmet>
                 <title>CarGo | My Cart</title>
             </Helmet>
-            <h1>My cart</h1>
+            <div>
+                <h1>My cart</h1>
+            </div>
         </div>
     );
 };
