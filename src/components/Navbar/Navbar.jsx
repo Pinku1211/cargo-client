@@ -21,7 +21,7 @@ const Navbar = () => {
         {/* <li><NavLink to="/register">Register</NavLink></li> */}
     </>
     return (
-        <div className="navbar bg-base-100 my-10 flex justify-between lg:px-24">
+        <div className="navbar bg-base-100 my-8 flex justify-between lg:px-24">
             <div className="navbar-start w-fit md:justify-start">
                 <div className="dropdown p-1">
                     <label tabIndex={0} className="text-[#ff6969] btn-ghost hover:bg-[#ff6969] hover:text-white btn lg:hidden">
