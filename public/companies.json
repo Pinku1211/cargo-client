@@ -1,8 +1,8 @@
  [
       {
         "Id": 1,
-        "Image": "https://i.ibb.co/xzC6X0b/blurred-motion-speeding-cars-city-comes-alive-generative-ai.jpghttps://i.ibb.co/bP8FWNg/bmw-white-background-logo-brand-name-2-MMAEMC.jpg",
-        "Brand Name": "BMW",
+        "Image": "https://i.ibb.co/7KyNFfG/BMW-symbol.jpg",
+        "BrandName": "BMW",
         "products": [
             {
                 "Id": 1,
@@ -49,7 +49,7 @@
       {
         "Id": 2,
         "Image": "https://i.ibb.co/QPp4HJ8/Color-Audi-logo.jpg",
-        "Brand Name": "Audi",
+        "BrandName": "Audi",
         "products": [
             {
                 "Id": 1,
@@ -95,8 +95,8 @@
       },
       {
         "Id": 3,
-        "Image": "https://i.ibb.co/QPp4HJ8/Color-Audi-logo.jpghttps://i.ibb.co/mzP4SrX/toyota.png",
-        "Brand Name": "Toyota",
+        "Image": "https://i.ibb.co/SNnxWk1/a3d760eb0bdb4d036950f579acbd7900.jpg",
+        "BrandName": "Toyota",
         "products":[
             {
                 "Id": 1,
@@ -143,7 +143,7 @@
       {
         "Id": 4,
         "Image": "https://i.ibb.co/P4LzZVq/marcedes.jpg",
-        "Brand Name": "Mercedes",
+        "BrandName": "Mercedes",
         "products":[
             {
                 "Id": 1,
@@ -190,7 +190,7 @@
       {
         "Id": 5,
         "Image": "https://i.ibb.co/C6Ywj8s/Honda-Logo.jpg",
-        "Brand Name": "Honda",
+        "BrandName": "Honda",
         "products":[
             {
                 "Id": 1,
@@ -236,8 +236,8 @@
       },
       {
         "Id": 6,
-        "Image": "https://i.ibb.co/QNKkmf9/Yamaha-meaning-naming-explained.webp",
-        "Brand Name": "Yamaha",
+        "Image": "https://i.ibb.co/HtyJBJT/yamaha-Logo.png",
+        "BrandName": "Yamaha",
         "products":[
             {
                 "Id": 1,

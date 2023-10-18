@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import Companies from '../../components/Companies/Companies';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Companies></Companies>
         </div>
     );
 };
