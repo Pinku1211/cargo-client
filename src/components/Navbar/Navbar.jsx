@@ -31,7 +31,6 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-
                 <div className='flex w-fit items-center gap-2 '>
                     <img className='w-10' src={logo} alt="" />
                     <h1 className='text-4xl font-bold'>CarGo</h1>
