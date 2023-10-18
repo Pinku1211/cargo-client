@@ -4,6 +4,7 @@ import { AuthContext } from '../../components/Provider/AuthProvider';
 import { FaEyeSlash, FaEye } from "react-icons/fa";
 import Swal from 'sweetalert2';
 import { updateProfile } from 'firebase/auth';
+import { Helmet } from 'react-helmet-async';
 
 const Register = () => {
     const { createUser, logInWithGoogle } = useContext(AuthContext);
@@ -76,6 +77,9 @@ const Register = () => {
 
     return (
         <section className="bg-gray-50">
+            <Helmet>
+                <title>CarGo | Register</title>
+            </Helmet>
             
             <div className="px-4 py-20 mx-auto max-w-7xl">
                 <h1 className="mb-5 text-4xl font-bold text-left text-gray-800 sm:text-center">Register for free</h1>
