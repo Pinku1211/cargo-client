@@ -20,6 +20,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import Brand from './Pages/Brand/Brands';
 import Brands from './Pages/Brand/Brands';
 import Details from './Pages/Details/Details';
+import Update from './Pages/Update/Update';
 
 const router = createBrowserRouter([
   {
@@ -54,8 +55,12 @@ const router = createBrowserRouter([
       },
       {
         path: '/details/:brandName/:id',
-        element: <Details></Details>,
+        element: <Private><Details></Details></Private>,
         loader: () => fetch('/companies.json')
+      },
+      {
+        path: '/update',
+        element: <Private><Update></Update></Private>
       }
     ]
   },

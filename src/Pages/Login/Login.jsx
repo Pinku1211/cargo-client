@@ -22,15 +22,15 @@ const Login = () => {
         setLogInError('');
 
         signIn(email, password)
-        .then(result => {
-            new Swal("CarGo", "Logged in successfully!");
-            navigate(location?.state ? location.state : "/")
-        })
-        .catch(error=> {
-            console.error(error);
-            setLogInError(error.message);
+            .then(result => {
+                new Swal("CarGo", "Logged in successfully!");
+                navigate(location?.state ? location.state : "/")
+            })
+            .catch(error => {
+                console.error(error);
+                setLogInError(error.message);
 
-        })
+            })
     }
 
 
@@ -38,6 +38,8 @@ const Login = () => {
         logInWithGoogle()
             .then(result => {
                 console.log(result.user)
+                new Swal("CarGo", "Logged in successfully!");
+                navigate(location?.state ? location.state : "/")
 
             })
             .catch(error => {
@@ -50,7 +52,7 @@ const Login = () => {
             <Helmet>
                 <title>CarGo | Login</title>
             </Helmet>
-        
+
             <div className="px-4 py-20 mx-auto max-w-7xl">
                 <h1 className="mb-5 text-4xl font-bold text-left text-gray-800 sm:text-center">Login to Start Now!</h1>
                 <div
@@ -64,7 +66,7 @@ const Login = () => {
                         <label className="block relative">
                             <span className="block mb-1 text-md font-medium text-gray-700">Your password</span>
                             <input className="form-input w-full p-2" type={showPassword ? "text" : "password"} name='password' placeholder="Password" required />
-                            <span onClick={()=> setShowPassword(!showPassword)} className='absolute right-4 bottom-3'>{showPassword ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>}</span>
+                            <span onClick={() => setShowPassword(!showPassword)} className='absolute right-4 bottom-3'>{showPassword ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>}</span>
                         </label>
                         <div className="flex flex-col justify-center">
                             <input type="submit" className="w-full mt-5 outline-white px-4 py-2 rounded-lg hover:bg-[#ff6969] hover:text-white border border-[#ff6969] text-[#ff6969] sm:w-auto sm:mt-0" value="Login" />
@@ -84,7 +86,7 @@ const Login = () => {
                         Continue with Google
                     </a>
                 </div>
-            
+
 
                 <p className="my-0 text-md font-medium text-center text-gray-700 sm:my-5">
                     Don't have an account?

@@ -16,7 +16,7 @@ const Products = ({ products }) => {
                 <p>Rating: {Rating}</p>
                 <div className="card-actions justify-end">
                     <Link to={`/details/${BrandName}/${Id}`}><button className="outline-white p-2 rounded-lg hover:bg-[#ff6969] hover:text-white border border-[#ff6969] text-[#ff6969]">Details</button></Link>
-                    <button className="outline-white p-2 rounded-lg hover:bg-[#ff6969] hover:text-white border border-[#ff6969] text-[#ff6969]">Update</button>
+                    <Link to='/update'><button className="outline-white p-2 rounded-lg hover:bg-[#ff6969] hover:text-white border border-[#ff6969] text-[#ff6969]">Update</button></Link>
                 </div>
             </div>
         </div>

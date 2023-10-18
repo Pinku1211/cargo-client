@@ -1,6 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import Companies from '../../components/Companies/Companies';
+import Press from '../../components/Press/Press';
+import Discover from '../../components/Press/Discover';
 
 const Home = () => {
     return (
@@ -19,6 +21,8 @@ const Home = () => {
                 </div>
             </div>
             <Companies></Companies>
+            <Press></Press>
+            <Discover></Discover>
         </div>
     );
 };

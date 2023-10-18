@@ -22,11 +22,9 @@ const Details = () => {
                 <h1 className='text-2xl font-semibold'>Type: {product.Type}</h1>
                 <h1 className='text-2xl font-semibold'>{product.ShortDescription}</h1>
             </div>
-            <Link to='/mycart'>
-                <div className="w-fit mx-auto my-6">
-                    <button className=' outline-white p-2 rounded-lg hover:bg-[#ff6969] hover:text-white border border-[#ff6969] text-[#ff6969]'>Add to cart</button>
-                </div>
-            </Link>
+            <div className="w-fit mx-auto my-6">
+                <button className=' outline-white p-2 rounded-lg hover:bg-[#ff6969] hover:text-white border border-[#ff6969] text-[#ff6969]'>Add to cart</button>
+            </div>
         </div>
     );
 };
