@@ -1,10 +1,32 @@
 import React from 'react';
-import { Link, useLoaderData, useParams } from 'react-router-dom';
+import { useLoaderData } from 'react-router-dom';
+import Swal from 'sweetalert2';
 
 const Details = () => {
 
     const product = useLoaderData()
-    console.log(product)
+
+    const handleAddToCart = () =>{
+        fetch('http://localhost:5000/cart', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(product)
+        })
+        .then(res => res.json())
+        .then(data=>{ 
+            console.log(data)
+            if(data.insertedId){
+                Swal.fire({
+                    title: 'Success!',
+                    text: 'Product added successfully',
+                    icon: 'success',
+                    confirmButtonText: 'Cool'
+                  })
+            }
+        })
+    }
    
 
     return (
@@ -19,7 +41,7 @@ const Details = () => {
                 <h1 className='text-2xl font-semibold'>{product.description}</h1>
             </div>
             <div className="w-fit mx-auto my-6">
-                <button className=' outline-white p-2 rounded-lg hover:bg-[#ff6969] hover:text-white border border-[#ff6969] text-[#ff6969]'>Add to cart</button>
+                <button onClick={handleAddToCart} className=' outline-white p-2 rounded-lg hover:bg-[#ff6969] hover:text-white border border-[#ff6969] text-[#ff6969]'>Add to cart</button>
             </div>
         </div>
     );
