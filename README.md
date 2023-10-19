@@ -1,8 +1,12 @@
-# React + Vite
+# CarGo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## live link: 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features of the project:
+    * The website of a shop of different automobile companies' product.
+    * Has dynamic routing 
+    * Private routes and access after logged in
+    * Firebase authentication and one extra method of log in(google)
+    * Dynamic data from database (MongoDB)
+    * Logged user can update and add a product to the database and get the UI view
+    * Responsible for all types of device out there
