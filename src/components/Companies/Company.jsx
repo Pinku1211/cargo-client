@@ -6,7 +6,7 @@ const Company = ({ company }) => {
     const { Id, BrandName, Image } = company;
 
     return (
-        <Link to={`brands/${Id}`}>
+        <Link to={`/brands/${BrandName}`}>
             <div>
                 <div className='border border-gray-500 rounded-lg p-4 h-[300px]'>
                     <img className='h-full w-full rounded-lg' src={Image} alt="" />

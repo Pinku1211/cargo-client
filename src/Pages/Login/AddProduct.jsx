@@ -1,7 +1,45 @@
+import { data } from 'autoprefixer';
 import React from 'react';
+import Swal from 'sweetalert2'
 import { Helmet } from 'react-helmet-async';
 
 const AddProduct = () => {
+
+
+    const handleAddProduct = e =>{
+        e.preventDefault();
+        const form = e.target;
+        const photo = form.photo.value
+        const name = form.name.value
+        const brand = form.brand.value
+        const type = form.type.value
+        const price = form.price.value
+        const description = form.description.value
+        const rating = form.rating.value
+        const newProduct = {photo, name, brand, type, price, description,  rating}
+        console.log(newProduct)
+
+        fetch('http://localhost:5000/products', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(newProduct)
+        })
+        .then(res => res.json())
+        .then(data=>{ 
+            console.log(data)
+            if(data.insertedId){
+                Swal.fire({
+                    title: 'Success!',
+                    text: 'Product added successfully',
+                    icon: 'success',
+                    confirmButtonText: 'Cool'
+                  })
+            }
+        })
+        
+    }
     return (
         <>
             <Helmet>
@@ -10,7 +48,7 @@ const AddProduct = () => {
             <section className="max-w-4xl p-6 mx-auto bg-gray-50 rounded-md shadow-md">
                 <h2 className="text-3xl text-center font-bold capitalize">Add Your Product</h2>
 
-                <form>
+                <form onSubmit={handleAddProduct}>
                     <div className="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
                         <div>
                             <label className="">Photo</label>

@@ -3,20 +3,20 @@ import { Link } from 'react-router-dom';
 
 const Products = ({ products }) => {
 
-    const {Id, Name, Price, Rating, ShortDescription, Type, Image, BrandName } = products;    
+    const { _id, name, price, rating, type, photo, brand } = products;    
 
     return (
-        <div className="card card-side bg-base-100 shadow-xl">
-            <figure><img src={Image} alt="" /></figure>
+        <div className="card lg:card-side bg-base-100 shadow-xl">
+            <figure><img className='h-full w-full lg:w-[330px]' src={photo} alt="" /></figure>
             <div className="card-body">
-                <h2 className="card-title">{BrandName}</h2>
-                <p>Model name: {Name}</p>
-                <p>Type: {Type}</p>
-                <p>Price: {Price}</p>
-                <p>Rating: {Rating}</p>
+                <h2 className="card-title">{brand}</h2>
+                <p>Model: {name}</p>
+                <p>Type: {type}</p>
+                <p>Price: {price}</p>
+                <p>Rating: {rating}</p>
                 <div className="card-actions justify-end">
-                    <Link to={`/details/${BrandName}/${Id}`}><button className="outline-white p-2 rounded-lg hover:bg-[#ff6969] hover:text-white border border-[#ff6969] text-[#ff6969]">Details</button></Link>
-                    <Link to='/update'><button className="outline-white p-2 rounded-lg hover:bg-[#ff6969] hover:text-white border border-[#ff6969] text-[#ff6969]">Update</button></Link>
+                    <Link to={`/details/${brand}/${_id}`}><button className="outline-white p-2 rounded-lg hover:bg-[#ff6969] hover:text-white border border-[#ff6969] text-[#ff6969]">Details</button></Link>
+                    <Link to={`/update/${brand}/${_id}`}><button className="outline-white p-2 rounded-lg hover:bg-[#ff6969] hover:text-white border border-[#ff6969] text-[#ff6969]">Update</button></Link>
                 </div>
             </div>
         </div>

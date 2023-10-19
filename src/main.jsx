@@ -49,18 +49,19 @@ const router = createBrowserRouter([
         element: <Private><MyCart></MyCart></Private>
       },
       {
-        path: '/brands/:id',
+        path: '/brands/:brand',
         element: <Brands></Brands>,
-        loader: () => fetch('/companies.json')
+        loader: ({params}) => fetch(`http://localhost:5000/products/${params.brand}`)
       },
       {
-        path: '/details/:brandName/:id',
+        path: '/details/:brand/:id',
         element: <Private><Details></Details></Private>,
-        loader: () => fetch('/companies.json')
+        loader: ({params}) => fetch(`http://localhost:5000/products/${params.brand}/${params.id}`)
       },
       {
-        path: '/update',
-        element: <Private><Update></Update></Private>
+        path: '/update/:brand/:id',
+        element: <Private><Update></Update></Private>,
+        loader: ({params}) => fetch(`http://localhost:5000/products/${params.brand}/${params.id}`)
       }
     ]
   },

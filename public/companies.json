@@ -6,7 +6,7 @@
         "products": [
             {
                 "Id": 1,
-                "Image": "bmw_product1.jpg",
+                "Image": "https://i.ibb.co/fHZ3zGV/1.webp",
                 "Name": "BMW X5",
                 "BrandName": "BMW",
                 "Type": "SUV",
@@ -16,7 +16,7 @@
               },
               {
                 "Id": 2,
-                "Image": "bmw_product2.jpg",
+                "Image": "https://i.ibb.co/TvpK2x2/2.jpg",
                 "Name": "BMW 3 Series",
                 "BrandName": "BMW",
                 "Type": "Sedan",
@@ -26,7 +26,7 @@
               },
               {
                 "Id": 3,
-                "Image": "bmw_product3.jpg",
+                "Image": "https://i.ibb.co/tC670tP/3.webp",
                 "Name": "BMW M5",
                 "BrandName": "BMW",
                 "Type": "Performance Sedan",
@@ -36,7 +36,7 @@
               },
               {
                 "Id": 4,
-                "Image": "bmw_product4.jpg",
+                "Image": "https://i.ibb.co/2dN62b5/4.jpg",
                 "Name": "BMW i3",
                 "BrandName": "BMW",
                 "Type": "Electric Car",
@@ -53,7 +53,7 @@
         "products": [
             {
                 "Id": 1,
-                "Image": "audi_product1.jpg",
+                "Image": "https://i.ibb.co/jhhMymG/5.jpg",
                 "Name": "Audi Q7",
                 "BrandName": "Audi",
                 "Type": "SUV",
@@ -63,7 +63,7 @@
               },
               {
                 "Id": 2,
-                "Image": "audi_product2.jpg",
+                "Image": "https://i.ibb.co/FxsHbFN/6-1.jpg",
                 "Name": "Audi A6",
                 "BrandName": "Audi",
                 "Type": "Sedan",
@@ -73,7 +73,7 @@
               },
               {
                 "Id": 3,
-                "Image": "audi_product3.jpg",
+                "Image": "https://i.ibb.co/tCjWNyd/7.jpg",
                 "Name": "Audi TT",
                 "BrandName": "Audi",
                 "Type": "Sports Car",
@@ -83,7 +83,7 @@
               },
               {
                 "Id": 4,
-                "Image": "audi_product4.jpg",
+                "Image": "https://i.ibb.co/RBS5zTg/8.jpg",
                 "Name": "Audi e-tron",
                 "BrandName": "Audi",
                 "Type": "Electric SUV",
@@ -100,7 +100,7 @@
         "products":[
             {
                 "Id": 1,
-                "Image": "toyota_product1.jpg",
+                "Image": "https://i.ibb.co/g6yNVyh/9.webp",
                 "Name": "Toyota Camry",
                 "BrandName": "Toyota",
                 "Type": "Sedan",
@@ -110,7 +110,7 @@
               },
               {
                 "Id": 2,
-                "Image": "toyota_product2.jpg",
+                "Image": "https://i.ibb.co/tQXKnDt/10.webp",
                 "Name": "Toyota RAV4",
                 "BrandName": "Toyota",
                 "Type": "SUV",
@@ -120,7 +120,7 @@
               },
               {
                 "Id": 3,
-                "Image": "toyota_product3.jpg",
+                "Image": "https://i.ibb.co/WsKjn6x/11.jpg",
                 "Name": "Toyota Prius",
                 "BrandName": "Toyota",
                 "Type": "Hybrid Car",
@@ -130,7 +130,7 @@
               },
               {
                 "Id": 4,
-                "Image": "toyota_product4.jpg",
+                "Image": "https://i.ibb.co/frZz081/12.webp",
                 "Name": "Toyota Tundra",
                 "BrandName": "Toyota",
                 "Type": "Truck",
@@ -147,7 +147,7 @@
         "products":[
             {
                 "Id": 1,
-                "Image": "mercedes_product1.jpg",
+                "Image": "https://i.ibb.co/590QxCh/13.jpg",
                 "Name": "Mercedes C-Class",
                 "BrandName": "Mercedes",
                 "Type": "Luxury Sedan",
@@ -157,7 +157,7 @@
               },
               {
                 "Id": 2,
-                "Image": "mercedes_product2.jpg",
+                "Image": "https://i.ibb.co/t23w1WD/14.webp",
                 "Name": "Mercedes GLC",
                 "BrandName": "Mercedes",
                 "Type": "Luxury SUV",
@@ -167,7 +167,7 @@
               },
               {
                 "Id": 3,
-                "Image": "mercedes_product3.jpg",
+                "Image": "https://i.ibb.co/j4DTt2X/15.jpg",
                 "Name": "Mercedes AMG GT",
                 "BrandName": "Mercedes",
                 "Type": "Sports Car",
@@ -177,7 +177,7 @@
               },
               {
                 "Id": 4,
-                "Image": "mercedes_product4.jpg",
+                "Image": "https://i.ibb.co/Hr3SZvN/16.jpg",
                 "Name": "Mercedes EQC",
                 "BrandName": "Mercedes",
                 "Type": "Electric SUV",
@@ -194,7 +194,7 @@
         "products":[
             {
                 "Id": 1,
-                "Image": "honda_product1.jpg",
+                "Image": "https://i.ibb.co/v1zSnJj/17.jpg",
                 "Name": "Honda Accord",
                 "BrandName": "Honda",
                 "Type": "Sedan",
@@ -204,7 +204,7 @@
               },
               {
                 "Id": 2,
-                "Image": "honda_product2.jpg",
+                "Image": "https://i.ibb.co/5WVg9GJ/18.jpg",
                 "Name": "Honda CR-V",
                 "BrandName": "Honda",
                 "Type": "SUV",
@@ -214,7 +214,7 @@
               },
               {
                 "Id": 3,
-                "Image": "honda_product3.jpg",
+                "Image": "https://i.ibb.co/3ThfwGV/19.jpg",
                 "Name": "Honda Civic Si",
                 "BrandName": "Honda",
                 "Type": "Sport Compact",
@@ -224,7 +224,7 @@
               },
               {
                 "Id": 4,
-                "Image": "honda_product4.jpg",
+                "Image": "https://i.ibb.co/K7ymcvP/20.webp",
                 "Name": "Honda Clarity",
                 "BrandName": "Honda",
                 "Type": "Hybrid Car",
@@ -236,49 +236,49 @@
       },
       {
         "Id": 6,
-        "Image": "https://i.ibb.co/HtyJBJT/yamaha-Logo.png",
-        "BrandName": "Yamaha",
+        "Image": "https://i.ibb.co/GsGqBQK/tesla.jpg",
+        "BrandName": "Tesla",
         "products":[
             {
                 "Id": 1,
-                "Image": "yamaha_product1.jpg",
-                "Name": "Yamaha YZF-R6",
-                "BrandName": "Yamaha",
-                "Type": "Sport Motorcycle",
-                "Price": "$12,000",
-                "ShortDescription": "The Yamaha YZF-R6 is a high-performance sport motorcycle for thrill-seekers.",
-                "Rating": 4.7
+                "Image": "https://i.ibb.co/1fSz9TM/21.jpg",
+                "Name": "Tesla Model 3",
+                "BrandName": "Tesla",
+                "Type": "Electric Sedan",
+                "Price": "$39,990",
+                "ShortDescription": "The Tesla Model 3 is a groundbreaking electric sedan that has redefined the automotive industry.",
+                "Rating": 4.8
               },
               {
                 "Id": 2,
-                "Image": "yamaha_product2.jpg",
-                "Name": "Yamaha MT-07",
-                "BrandName": "Yamaha",
-                "Type": "Naked Bike",
-                "Price": "$7,000",
-                "ShortDescription": "The Yamaha MT-07 is a versatile and agile naked motorcycle.",
-                "Rating": 4.5
+                "Image": "https://i.ibb.co/6gYNc9Q/22.jpg",
+                "Name": "Tesla Model S",
+                "BrandName": "Tesla",
+                "Type": "Electric Luxury Sedan",
+                "Price": "$79,990",
+                "ShortDescription": "The Tesla Model S is a groundbreaking electric luxury sedan, setting the standard for performance, range, and innovation.",
+                "Rating": 4.9
               },
               {
                 "Id": 3,
-                "Image": "yamaha_product3.jpg",
-                "Name": "Yamaha Bolt",
-                "BrandName": "Yamaha",
-                "Type": "Cruiser",
-                "Price": "$8,500",
-                "ShortDescription": "The Yamaha Bolt offers a classic cruiser style and comfort.",
-                "Rating": 4.6
+                "Image": "https://i.ibb.co/mTx0YTq/23.webp",
+                "Name": "Tesla Model X",
+                "BrandName": "Tesla",
+                "Type": "Electric SUV",
+                "Price": "$84,990",
+                "ShortDescription": "The Tesla Model X is an exceptional electric SUV that redefines family mobility.",
+                "Rating": 4.7
               },
               {
                 "Id": 4,
-                "Image": "yamaha_product4.jpg",
-                "Name": "Yamaha Tracer 900",
-                "BrandName": "Yamaha",
-                "Type": "Sport Touring Motorcycle",
-                "Price": "$11,500",
-                "ShortDescription": "The Yamaha Tracer 900 is designed for long-distance sport touring.",
-                "Rating": 4.8
-              }
+                "Image": "https://i.ibb.co/h1TX0pM/24.webp",
+                "Name": "Tesla Model Y",
+                "BrandName": "Tesla",
+                "Type": "Electric Compact SUV",
+                "Price": "$49,990",
+                "ShortDescription": "The Tesla Model Y is an electric compact SUV designed to provide versatility and efficiency.",
+                "Rating": 4.6
+              }  
         ]
       }
 ]
