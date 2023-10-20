@@ -92,7 +92,3 @@ const AddProduct = () => {
 };
 
 export default AddProduct;
-
-/* <Helmet>
-    <title>CarGo | Add Product</title>
-</Helmet> */

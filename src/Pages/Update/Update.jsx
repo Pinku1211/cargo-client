@@ -18,6 +18,7 @@ const Update = () => {
         const price = form.price.value
         const rating = form.rating.value
         const UpdatedProduct = {photo, name, brand, type, price, rating}
+        console.log(UpdatedProduct)
 
         fetch(`http://localhost:5000/products/${brand}/${_id}`,{
             method: 'PUT',
@@ -57,7 +58,7 @@ const Update = () => {
                         </div>
                         <div>
                             <label className="">Brand</label>
-                            <input name="brand" defaultValue={brand} type="text" placeholder='Brand Name' className="block w-full px-4 py-2 mt-2 bg-white border border-gray-200 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                            <input name="brand" value={brand} type="text" placeholder='Brand Name' className="block w-full px-4 py-2 mt-2 bg-white border border-gray-200 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
                         </div>
                         <div>
                             <label className="">Type</label>
