@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 const Company = ({ company }) => {
 
-    const { Id, BrandName, Image } = company;
+    const { Id, name, Image } = company;
 
     return (
-        <Link to={`/brands/${BrandName}`}>
+        <Link to={`/brands/${name}`}>
             <div>
                 <div className='border border-gray-500 rounded-lg p-4 h-[300px]'>
                     <img className='h-full w-full rounded-lg' src={Image} alt="" />

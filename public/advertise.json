@@ -1,7 +1,7 @@
  [
       {
         "name": "BMW",
-        "images": [
+        "photos": [
           "https://i.ibb.co/wBMDd6F/b1.jpg",
           "https://i.ibb.co/8MRG8jq/b2.jpg",
           "https://i.ibb.co/6JwkK5T/b3.jpg"
@@ -9,7 +9,7 @@
       },
       {
         "name": "Audi",
-        "images": [
+        "photos": [
           "https://i.ibb.co/QJ1rh0d/25.png",
           "https://i.ibb.co/dbNPjCR/a2.jpg",
           "https://i.ibb.co/vqXrwWM/a3.jpg"
@@ -17,15 +17,15 @@
       },
       {
         "name": "Toyota",
-        "images": [
+        "photos": [
           "https://i.ibb.co/kgrY8xb/to1.webp",
-          "https://i.ibb.co/xMxfsBK/to2.jpg",
+          "https://i.ibb.co/L6DHB2B/to4.jpg",
           "https://i.ibb.co/Y2gyC1J/to3.jpg"
         ]
       },
       {
         "name": "Tesla",
-        "images": [
+        "photos": [
           "https://i.ibb.co/ypKhBCZ/t1.jpg",
           "https://i.ibb.co/gMjvGRw/t2.jpg",
           "https://i.ibb.co/Zmhgz88/t3.webp"
@@ -33,7 +33,7 @@
       },
       {
         "name": "Mercedes",
-        "images": [
+        "photos": [
           "https://i.ibb.co/g7BRN06/m1.jpg",
           "https://i.ibb.co/LSHFHfv/m2.jpg",
           "https://i.ibb.co/g4xwBhT/m3.jpg"
@@ -41,7 +41,7 @@
       },
       {
         "name": "Honda",
-        "images": [
+        "photos": [
           "https://i.ibb.co/b6h9Xnc/h1.jpg",
           "https://i.ibb.co/LJV0m4c/h2.jpg",
           "https://i.ibb.co/HYYgKz0/h3.jpg"

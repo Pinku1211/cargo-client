@@ -2,283 +2,61 @@
       {
         "Id": 1,
         "Image": "https://i.ibb.co/7KyNFfG/BMW-symbol.jpg",
-        "BrandName": "BMW",
-        "products": [
-            {
-                "Id": 1,
-                "Image": "https://i.ibb.co/fHZ3zGV/1.webp",
-                "Name": "BMW X5",
-                "BrandName": "BMW",
-                "Type": "SUV",
-                "Price": "$60,000",
-                "ShortDescription": "The BMW X5 is a luxurious and powerful SUV.",
-                "Rating": 4.9
-              },
-              {
-                "Id": 2,
-                "Image": "https://i.ibb.co/TvpK2x2/2.jpg",
-                "Name": "BMW 3 Series",
-                "BrandName": "BMW",
-                "Type": "Sedan",
-                "Price": "$45,000",
-                "ShortDescription": "The BMW 3 Series offers a perfect blend of luxury and performance.",
-                "Rating": 4.7
-              },
-              {
-                "Id": 3,
-                "Image": "https://i.ibb.co/tC670tP/3.webp",
-                "Name": "BMW M5",
-                "BrandName": "BMW",
-                "Type": "Performance Sedan",
-                "Price": "$85,000",
-                "ShortDescription": "The BMW M5 is a high-performance luxury sedan.",
-                "Rating": 4.8
-              },
-              {
-                "Id": 4,
-                "Image": "https://i.ibb.co/2dN62b5/4.jpg",
-                "Name": "BMW i3",
-                "BrandName": "BMW",
-                "Type": "Electric Car",
-                "Price": "$45,000",
-                "ShortDescription": "The BMW i3 is a stylish electric car with a focus on sustainability.",
-                "Rating": 4.5
-              }
+        "name": "BMW",
+        "photos": [
+          "https://i.ibb.co/wBMDd6F/b1.jpg",
+          "https://i.ibb.co/8MRG8jq/b2.jpg",
+          "https://i.ibb.co/6JwkK5T/b3.jpg"
         ]
       },
       {
         "Id": 2,
         "Image": "https://i.ibb.co/QPp4HJ8/Color-Audi-logo.jpg",
-        "BrandName": "Audi",
-        "products": [
-            {
-                "Id": 1,
-                "Image": "https://i.ibb.co/jhhMymG/5.jpg",
-                "Name": "Audi Q7",
-                "BrandName": "Audi",
-                "Type": "SUV",
-                "Price": "$55,000",
-                "ShortDescription": "The Audi Q7 is a spacious and luxurious SUV with advanced tech.",
-                "Rating": 4.7
-              },
-              {
-                "Id": 2,
-                "Image": "https://i.ibb.co/FxsHbFN/6-1.jpg",
-                "Name": "Audi A6",
-                "BrandName": "Audi",
-                "Type": "Sedan",
-                "Price": "$50,000",
-                "ShortDescription": "The Audi A6 is an elegant and tech-savvy sedan.",
-                "Rating": 4.6
-              },
-              {
-                "Id": 3,
-                "Image": "https://i.ibb.co/tCjWNyd/7.jpg",
-                "Name": "Audi TT",
-                "BrandName": "Audi",
-                "Type": "Sports Car",
-                "Price": "$60,000",
-                "ShortDescription": "The Audi TT offers thrilling sports car performance.",
-                "Rating": 4.8
-              },
-              {
-                "Id": 4,
-                "Image": "https://i.ibb.co/RBS5zTg/8.jpg",
-                "Name": "Audi e-tron",
-                "BrandName": "Audi",
-                "Type": "Electric SUV",
-                "Price": "$65,000",
-                "ShortDescription": "The Audi e-tron is a premium electric SUV with all-wheel drive.",
-                "Rating": 4.6
-              }
+        "name": "Audi",
+        "photos": [
+          "https://i.ibb.co/QJ1rh0d/25.png",
+          "https://i.ibb.co/dbNPjCR/a2.jpg",
+          "https://i.ibb.co/vqXrwWM/a3.jpg"
         ]
       },
       {
         "Id": 3,
         "Image": "https://i.ibb.co/SNnxWk1/a3d760eb0bdb4d036950f579acbd7900.jpg",
-        "BrandName": "Toyota",
-        "products":[
-            {
-                "Id": 1,
-                "Image": "https://i.ibb.co/g6yNVyh/9.webp",
-                "Name": "Toyota Camry",
-                "BrandName": "Toyota",
-                "Type": "Sedan",
-                "Price": "$30,000",
-                "ShortDescription": "The Toyota Camry is a reliable and efficient family sedan.",
-                "Rating": 4.5
-              },
-              {
-                "Id": 2,
-                "Image": "https://i.ibb.co/tQXKnDt/10.webp",
-                "Name": "Toyota RAV4",
-                "BrandName": "Toyota",
-                "Type": "SUV",
-                "Price": "$35,000",
-                "ShortDescription": "The Toyota RAV4 is a popular and versatile compact SUV.",
-                "Rating": 4.6
-              },
-              {
-                "Id": 3,
-                "Image": "https://i.ibb.co/WsKjn6x/11.jpg",
-                "Name": "Toyota Prius",
-                "BrandName": "Toyota",
-                "Type": "Hybrid Car",
-                "Price": "$27,000",
-                "ShortDescription": "The Toyota Prius is an eco-friendly hybrid with great fuel efficiency.",
-                "Rating": 4.4
-              },
-              {
-                "Id": 4,
-                "Image": "https://i.ibb.co/frZz081/12.webp",
-                "Name": "Toyota Tundra",
-                "BrandName": "Toyota",
-                "Type": "Truck",
-                "Price": "$40,000",
-                "ShortDescription": "The Toyota Tundra is a rugged and dependable full-size truck.",
-                "Rating": 4.7
-              }
+        "name": "Toyota",
+        "photos":[
+          "https://i.ibb.co/kgrY8xb/to1.webp",
+          "https://i.ibb.co/L6DHB2B/to4.jpg",
+          "https://i.ibb.co/Y2gyC1J/to3.jpg"
         ]
       },
       {
         "Id": 4,
         "Image": "https://i.ibb.co/P4LzZVq/marcedes.jpg",
-        "BrandName": "Mercedes",
-        "products":[
-            {
-                "Id": 1,
-                "Image": "https://i.ibb.co/590QxCh/13.jpg",
-                "Name": "Mercedes C-Class",
-                "BrandName": "Mercedes",
-                "Type": "Luxury Sedan",
-                "Price": "$55,000",
-                "ShortDescription": "The Mercedes C-Class offers a perfect blend of luxury and performance.",
-                "Rating": 4.7
-              },
-              {
-                "Id": 2,
-                "Image": "https://i.ibb.co/t23w1WD/14.webp",
-                "Name": "Mercedes GLC",
-                "BrandName": "Mercedes",
-                "Type": "Luxury SUV",
-                "Price": "$60,000",
-                "ShortDescription": "The Mercedes GLC is a luxurious and versatile SUV with advanced tech.",
-                "Rating": 4.8
-              },
-              {
-                "Id": 3,
-                "Image": "https://i.ibb.co/j4DTt2X/15.jpg",
-                "Name": "Mercedes AMG GT",
-                "BrandName": "Mercedes",
-                "Type": "Sports Car",
-                "Price": "$130,000",
-                "ShortDescription": "The Mercedes AMG GT offers thrilling sports car performance.",
-                "Rating": 4.9
-              },
-              {
-                "Id": 4,
-                "Image": "https://i.ibb.co/Hr3SZvN/16.jpg",
-                "Name": "Mercedes EQC",
-                "BrandName": "Mercedes",
-                "Type": "Electric SUV",
-                "Price": "$75,000",
-                "ShortDescription": "The Mercedes EQC is a premium electric SUV with a focus on sustainability.",
-                "Rating": 4.6
-              }
+        "name": "Mercedes",
+        "photos":[
+          "https://i.ibb.co/g7BRN06/m1.jpg",
+          "https://i.ibb.co/LSHFHfv/m2.jpg",
+          "https://i.ibb.co/g4xwBhT/m3.jpg"
         ]
       },
       {
         "Id": 5,
         "Image": "https://i.ibb.co/C6Ywj8s/Honda-Logo.jpg",
-        "BrandName": "Honda",
-        "products":[
-            {
-                "Id": 1,
-                "Image": "https://i.ibb.co/v1zSnJj/17.jpg",
-                "Name": "Honda Accord",
-                "BrandName": "Honda",
-                "Type": "Sedan",
-                "Price": "$25,000",
-                "ShortDescription": "The Honda Accord is a reliable and fuel-efficient family sedan.",
-                "Rating": 4.5
-              },
-              {
-                "Id": 2,
-                "Image": "https://i.ibb.co/5WVg9GJ/18.jpg",
-                "Name": "Honda CR-V",
-                "BrandName": "Honda",
-                "Type": "SUV",
-                "Price": "$30,000",
-                "ShortDescription": "The Honda CR-V is a popular and versatile compact SUV.",
-                "Rating": 4.7
-              },
-              {
-                "Id": 3,
-                "Image": "https://i.ibb.co/3ThfwGV/19.jpg",
-                "Name": "Honda Civic Si",
-                "BrandName": "Honda",
-                "Type": "Sport Compact",
-                "Price": "$28,000",
-                "ShortDescription": "The Honda Civic Si offers sporty performance and style.",
-                "Rating": 4.6
-              },
-              {
-                "Id": 4,
-                "Image": "https://i.ibb.co/K7ymcvP/20.webp",
-                "Name": "Honda Clarity",
-                "BrandName": "Honda",
-                "Type": "Hybrid Car",
-                "Price": "$30,000",
-                "ShortDescription": "The Honda Clarity is a green, eco-friendly hybrid car.",
-                "Rating": 4.4
-              }
+        "name": "Honda",
+        "photos":[
+          "https://i.ibb.co/b6h9Xnc/h1.jpg",
+          "https://i.ibb.co/LJV0m4c/h2.jpg",
+          "https://i.ibb.co/HYYgKz0/h3.jpg"
         ]
       },
       {
         "Id": 6,
         "Image": "https://i.ibb.co/GsGqBQK/tesla.jpg",
-        "BrandName": "Tesla",
-        "products":[
-            {
-                "Id": 1,
-                "Image": "https://i.ibb.co/1fSz9TM/21.jpg",
-                "Name": "Tesla Model 3",
-                "BrandName": "Tesla",
-                "Type": "Electric Sedan",
-                "Price": "$39,990",
-                "ShortDescription": "The Tesla Model 3 is a groundbreaking electric sedan that has redefined the automotive industry.",
-                "Rating": 4.8
-              },
-              {
-                "Id": 2,
-                "Image": "https://i.ibb.co/6gYNc9Q/22.jpg",
-                "Name": "Tesla Model S",
-                "BrandName": "Tesla",
-                "Type": "Electric Luxury Sedan",
-                "Price": "$79,990",
-                "ShortDescription": "The Tesla Model S is a groundbreaking electric luxury sedan, setting the standard for performance, range, and innovation.",
-                "Rating": 4.9
-              },
-              {
-                "Id": 3,
-                "Image": "https://i.ibb.co/mTx0YTq/23.webp",
-                "Name": "Tesla Model X",
-                "BrandName": "Tesla",
-                "Type": "Electric SUV",
-                "Price": "$84,990",
-                "ShortDescription": "The Tesla Model X is an exceptional electric SUV that redefines family mobility.",
-                "Rating": 4.7
-              },
-              {
-                "Id": 4,
-                "Image": "https://i.ibb.co/h1TX0pM/24.webp",
-                "Name": "Tesla Model Y",
-                "BrandName": "Tesla",
-                "Type": "Electric Compact SUV",
-                "Price": "$49,990",
-                "ShortDescription": "The Tesla Model Y is an electric compact SUV designed to provide versatility and efficiency.",
-                "Rating": 4.6
-              }  
+        "name": "Tesla",
+        "photos":[
+          "https://i.ibb.co/ypKhBCZ/t1.jpg",
+          "https://i.ibb.co/gMjvGRw/t2.jpg",
+          "https://i.ibb.co/Zmhgz88/t3.webp"
         ]
       }
 ]
