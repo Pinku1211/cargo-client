@@ -47,22 +47,22 @@ const router = createBrowserRouter([
       {
         path: '/mycart',
         element: <Private><MyCart></MyCart></Private>,
-        loader: () => fetch('http://localhost:5000/cart')
+        loader: () => fetch('https://cargo-server-8sbgitkhl-pinkus-projects.vercel.app/cart')
       },
       {
         path: '/brands/:brand',
         element: <Brands></Brands>,
-        loader: ({params}) => fetch(`http://localhost:5000/products/${params.brand}`)
+        loader: ({params}) => fetch(`https://cargo-server-8sbgitkhl-pinkus-projects.vercel.app/products/${params.brand}`)
       },
       {
         path: '/details/:brand/:id',
         element: <Private><Details></Details></Private>,
-        loader: ({params}) => fetch(`http://localhost:5000/products/${params.brand}/${params.id}`)
+        loader: ({params}) => fetch(`https://cargo-server-8sbgitkhl-pinkus-projects.vercel.app/products/${params.brand}/${params.id}`)
       },
       {
         path: '/update/:brand/:id',
         element: <Private><Update></Update></Private>,
-        loader: ({params}) => fetch(`http://localhost:5000/products/${params.brand}/${params.id}`)
+        loader: ({params}) => fetch(`https://cargo-server-8sbgitkhl-pinkus-projects.vercel.app/products/${params.brand}/${params.id}`)
       }
     ]
   },

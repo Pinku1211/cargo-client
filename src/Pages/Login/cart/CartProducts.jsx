@@ -18,7 +18,7 @@ const CartProducts = ({ product, carts, setCarts }) => {
             if (result.isConfirmed) {
                 console.log(_id)
 
-                fetch(`http://localhost:5000/cart/${_id}`,{
+                fetch(`https://cargo-server-8sbgitkhl-pinkus-projects.vercel.app/cart/${_id}`,{
                     method: "DELETE"
                 })
                 .then(res => res.json())
