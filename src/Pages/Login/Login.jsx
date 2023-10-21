@@ -48,24 +48,24 @@ const Login = () => {
     }
 
     return (
-        <section className="bg-gray-50">
+        <section className="bg-gray-50 dark:bg-slate-400">
             <Helmet>
                 <title>CarGo | Login</title>
             </Helmet>
 
             <div className="px-4 py-20 mx-auto max-w-7xl">
-                <h1 className="mb-5 text-4xl font-bold text-left text-gray-800 sm:text-center">Login to Start Now!</h1>
+                <h1 className="mb-5 text-4xl font-bold text-left sm:text-center">Login to Start Now!</h1>
                 <div
-                    className="w-full px-0 pt-5 pb-6 mx-auto mt-4 mb-0 space-y-4 bg-transparent border-0 border-gray-200 rounded-lg md:bg-white md:border sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-4/12 md:px-6 sm:mt-8 sm:mb-5"
+                    className="w-full p-6 mx-auto mt-4 mb-0 space-y-4 bg-transparent border-0 border-gray-200 rounded-lg dark:bg-slate-600 dark:text-white md:bg-white md:border sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-4/12 md:px-6 sm:mt-8 sm:mb-5"
                 >
                     <form onSubmit={handleLogin} className="pb-1 space-y-4">
                         <label className="block">
                             <span className="block mb-1 text-md font-medium text-gray-700">Your Email</span>
-                            <input className="form-input w-full p-2" type="email" name='email' placeholder="Your email" inputmode="email" required />
+                            <input className="form-input w-full p-2 rounded-lg" type="email" name='email' placeholder="Your email" inputmode="email" required />
                         </label>
                         <label className="block relative">
                             <span className="block mb-1 text-md font-medium text-gray-700">Your password</span>
-                            <input className="form-input w-full p-2" type={showPassword ? "text" : "password"} name='password' placeholder="Password" required />
+                            <input className="form-input w-full p-2 rounded-lg" type={showPassword ? "text" : "password"} name='password' placeholder="Password" required />
                             <span onClick={() => setShowPassword(!showPassword)} className='absolute right-4 bottom-3'>{showPassword ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>}</span>
                         </label>
                         <div className="flex flex-col justify-center">

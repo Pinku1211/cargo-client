@@ -76,34 +76,34 @@ const Register = () => {
 
 
     return (
-        <section className="bg-gray-50">
+        <section className="bg-gray-50 dark:bg-slate-400">
             <Helmet>
                 <title>CarGo | Register</title>
             </Helmet>
             
             <div className="px-4 py-20 mx-auto max-w-7xl">
-                <h1 className="mb-5 text-4xl font-bold text-left text-gray-800 sm:text-center">Register for free</h1>
+                <h1 className="mb-5 text-4xl font-bold text-left text-gray-800 dark:text-white sm:text-center">Register for free</h1>
 
                 <div
-                    className="w-full px-0 p-6 mx-auto mt-4 mb-0 space-y-4 bg-transparent border-0 border-gray-200 rounded-lg md:bg-white md:border sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-4/12 md:px-6 sm:mt-8 sm:mb-5"
+                    className="w-full p-6 mx-auto mt-4 mb-0 space-y-4 bg-transparent border-0 border-gray-200 rounded-lg md:bg-white dark:bg-slate-600 md:border sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-4/12 md:px-6 sm:mt-8 sm:mb-5"
                 >
                     <form onSubmit={handleRegister} className="pb-1 space-y-4">
                         
                         <label className="block">
                             <span className="block mb-1 text-md font-medium text-gray-700">Your Name</span>
-                            <input className="form-input w-full p-2" type="text" name='name' placeholder="Your name" required />
+                            <input className="form-input w-full p-2 rounded-lg" type="text" name='name' placeholder="Your name" required />
                         </label>
                         <label className="block">
                             <span className="block mb-1 text-md font-medium text-gray-700">Your Photo</span>
-                            <input className="form-input w-full p-2" type="text" name='photo' placeholder="PhotoUrl" required />
+                            <input className="form-input w-full p-2 rounded-lg" type="text" name='photo' placeholder="PhotoUrl" required />
                         </label>
                         <label className="block">
                             <span className="block mb-1 text-md font-medium text-gray-700">Your Email</span>
-                            <input className="form-input w-full p-2" type="email" name='email' placeholder="Email" inputmode="email" required />
+                            <input className="form-input w-full p-2 rounded-lg" type="email" name='email' placeholder="Email" inputmode="email" required />
                         </label>
                         <label className="block relative">
                             <span className="block mb-1 text-md font-medium text-gray-700">Create a password</span>
-                            <input className="form-input w-full p-2" type={showPassword ? "text" : "password"} name='password' placeholder="Password" required />
+                            <input className="form-input w-full p-2 rounded-lg" type={showPassword ? "text" : "password"} name='password' placeholder="Password" required />
                             <span onClick={()=> setShowPassword(!showPassword)} className='absolute right-4 bottom-3'>{showPassword ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>}</span>
                         </label>
                         
