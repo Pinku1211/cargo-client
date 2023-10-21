@@ -48,13 +48,13 @@ const Login = () => {
     }
 
     return (
-        <section className="bg-gray-50 dark:bg-slate-400">
+        <section className="bg-gray-50 dark:bg-slate-400 dark:text-white">
             <Helmet>
                 <title>CarGo | Login</title>
             </Helmet>
 
             <div className="px-4 py-20 mx-auto max-w-7xl">
-                <h1 className="mb-5 text-4xl font-bold text-left sm:text-center">Login to Start Now!</h1>
+                <h1 className="mb-5 text-4xl font-bold text-center ">Login to Start Now!</h1>
                 <div
                     className="w-full p-6 mx-auto mt-4 mb-0 space-y-4 bg-transparent border-0 border-gray-200 rounded-lg dark:bg-slate-600 dark:text-white md:bg-white md:border sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-4/12 md:px-6 sm:mt-8 sm:mb-5"
                 >
@@ -76,7 +76,7 @@ const Login = () => {
                         }
                     </form>
                 </div>
-                <div className='max-w-fit mx-auto'>
+                <div className='max-w-fit mx-auto my-4'>
                     <a onClick={handleGoogleSignIng} href="#" className="w-full py-3 btn btn-icon btn-google">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="mr-1">
                             <path

@@ -7,7 +7,7 @@ const Details = () => {
     const product = useLoaderData()
 
     const handleAddToCart = () =>{
-        fetch('http://localhost:5000/cart', {
+        fetch('https://cargo-server-two.vercel.app/cart', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -27,10 +27,11 @@ const Details = () => {
             }
         })
     }
+    
    
 
     return (
-        <div className='px-16 lg:px-24 my-10 max-w-6xl mx-auto'>
+        <div className='px-16 lg:px-24 my-10 max-w-6xl mx-auto dark:text-black'>
             <img src={product.photo} alt="" />
             <div className='space-y-3 my-6'>
                 <h1 className='text-3xl font-bold'>{product.brand}</h1>

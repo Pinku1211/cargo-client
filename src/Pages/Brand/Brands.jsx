@@ -10,7 +10,7 @@ const Brands = () => {
 
 
     return (
-        <>
+        <div className='dark:text-black'>
             {
                 brandProducts.length !== 0 ? <div className='px-6 md:px-16 lg:px-24 py-10 bg-gray-50'>
                 <h1 className='text-5xl font-extrabold text-center my-10'>{brand}</h1>
@@ -28,7 +28,7 @@ const Brands = () => {
             }
             
 
-        </>
+        </div>
 
     );
 };

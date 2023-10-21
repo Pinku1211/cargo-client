@@ -19,7 +19,7 @@ const AddProduct = () => {
         const newProduct = {photo, name, brand, type, price, description,  rating}
         console.log(newProduct)
 
-        fetch('https://cargo-server-8sbgitkhl-pinkus-projects.vercel.app/products', {
+        fetch('https://cargo-server-two.vercel.app/products', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -7,10 +7,10 @@ const Root = () => {
 
     return (
         <div className=''>
-            <div className='sticky top-0 z-20'>
+            <div className=''>
                 <Navbar></Navbar>
             </div>
-            <div className='z-10'>
+            <div className=''>
                 <Outlet></Outlet>
             </div>
             <Footer></Footer>
