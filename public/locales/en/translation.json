@@ -1,0 +1,19 @@
+{
+    "logIn": "Login to Start Now!",
+    "email": "Your Email",
+    "password": "Your password",
+    "login": "Login",
+    "google": "CONTINUE WITH GOOGLE",
+    "acc": "Don't have an account?",
+    "reg": "Register",
+    "registration": "Register for free",
+    "name": "Your Name",
+    "photo": "Your Photo",
+    "policy": "Agree to Privacy Policy",
+    "aacc": "Already have an account?",
+    "home": "Home",
+    "addProduct": "Add Product",
+    "cart": "My Cart",
+    "chat": "Let's Chat",
+    "logout": "Log Out"
+}

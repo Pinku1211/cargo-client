@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import logo from "../../../public/logo.png"
 import { AuthContext } from '../Provider/AuthProvider';
-import { FaMoon, FaSun } from "react-icons/fa6";
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
 
@@ -14,32 +14,26 @@ const Navbar = () => {
             .catch()
     }
 
+    const { i18n } = useTranslation();
+
+    const change = (lng) => {
+        i18n.changeLanguage(lng);
+        console.log(lng)
+    };
+    
+    const {t} = useTranslation();
+
     const navLinks = <>
-        <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/login">Log In</NavLink></li>
-        <li><NavLink to="/addproduct">Add Product</NavLink></li>
-        <li><NavLink to="/mycart">My Cart</NavLink></li>
+        <li><NavLink to="/">{t("home")}</NavLink></li>
+        <li><NavLink to="/login">{t("login")}</NavLink></li>
+        <li><NavLink to="/addproduct">{t("addProduct")}</NavLink></li>
+        <li><NavLink to="/mycart">{t("cart")}</NavLink></li>
+        <li><NavLink to="/message">{t("chat")}</NavLink></li>
         {/* <li><NavLink to="/register">Register</NavLink></li> */}
     </>
 
 
-    const [theme, setTheme] = useState("");
-
-    const handleSwitch = () => {
-        setTheme(theme === "dark" ? "light" : "dark")
-        if (theme === "dark") {
-            document.documentElement.classList.add("dark")
-            localStorage.setItem("theme", "dark")
-        } else {
-            document.documentElement.classList.remove("dark")
-            localStorage.setItem("theme", "light")
-        }
-        
-    }
-    useEffect(() => {
-        const currentTheme = localStorage.getItem("theme") || "light";
-        document.documentElement.classList.add(currentTheme)
-    }, []);
+    
 
 
     return (
@@ -78,16 +72,11 @@ const Navbar = () => {
                             <Link to='/login'><button className='outline-white px-2 py-1 rounded-lg hover:bg-[#ff6969] hover:text-white border border-[#ff6969] text-[#ff6969]'>Log in</button></Link>
                         </div>
                 }
-                <div className='flex justify-center'>
+                
 
-                    <button
-                        onClick={handleSwitch}
-                        className='bg-base-300 text-yellow-400 dark:bg-slate-400 p-2 rounded-lg'
-                    >
-                        {theme === "dark" ? <FaMoon></FaMoon> : <FaSun></FaSun>}
-                    </button>
-
-
+                <div>
+                    <button onClick={() => change('en')} className='bg-base-300 p-1 rounded-l-lg'>Eng</button>
+                    <button onClick={() => change('es')} className='bg-base-100  p-1 rounded-r-lg'>Esp</button>
                 </div>
 
             </div>

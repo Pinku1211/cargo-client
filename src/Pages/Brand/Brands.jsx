@@ -6,13 +6,15 @@ import Advertise from '../../components/advertise/Advertise';
 const Brands = () => {
 
     const { brand } = useParams();
+    console.log(brand)
     const brandProducts = useLoaderData();
+    console.log(brandProducts)
 
 
     return (
         <div className='dark:text-black'>
             {
-                brandProducts.length !== 0 ? <div className='px-6 md:px-16 lg:px-24 py-10 bg-gray-50'>
+                brandProducts?.length !== 0 ? <div className='px-6 md:px-16 lg:px-24 py-10 bg-gray-50'>
                 <h1 className='text-5xl font-extrabold text-center my-10'>{brand}</h1>
                 <Advertise brand={brand}></Advertise>
 
@@ -20,7 +22,7 @@ const Brands = () => {
 
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
                     {
-                        brandProducts.map(products => <Products key={products._id} products={products}></Products>)
+                        brandProducts?.map(products => <Products key={products._id} products={products}></Products>)
                     }
                 </div>
             </div> 
