@@ -21,6 +21,7 @@ import Brand from './Pages/Brand/Brands';
 import Brands from './Pages/Brand/Brands';
 import Details from './Pages/Details/Details';
 import Update from './Pages/Update/Update';
+import Message from './components/Chat/Message.jsx';
 
 const router = createBrowserRouter([
   {
@@ -63,6 +64,10 @@ const router = createBrowserRouter([
         path: '/update/:brand/:id',
         element: <Private><Update></Update></Private>,
         loader: ({params}) => fetch(`https://cargo-server-two.vercel.app/products/${params.brand}/${params.id}`)
+      }, 
+      {
+        path: '/message',
+        element: <Private><Message></Message></Private>
       }
     ]
   },

@@ -20,9 +20,6 @@ const Register = () => {
         const email = form.get('email')
         const password = form.get('password')
         const checkBox = e.target.checkBox.checked;
-
-        
-
         setRegisterError('')
 
         if(password.length < 6) {
